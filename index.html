@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>Exotic</span>Motors</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#services">services</a>
+        <a href="#featured">Cars List</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div id="login-btn">
+      
+        <i</i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="#">create one</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">your Exotic Motor's </h3>
+
+    <img data-speed="5" class="home-parallax" src="image/home-img.png" alt="">
+
+    
+
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>1</h3>
+            <p>branch</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>Out-Of-Stock</h3>
+            <p>Packard-1948 Stock</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>Out-Of-Stock</h3>
+            <p>mazda RX7 Stock</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>Pre-booking Open</h3>
+            <p>Mercedes Benz V Class Stock</p>
+        </div>
+    </div>
+
+     <!-- <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3></h3>
+            <p>happy clients</p>
+        </div>
+    </div>--->
+
+
+</section>
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading"> popular <span>vehicles</span> </h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image\packard1948.png" alt="">
+                <div class="content">
+                    <h3>Packard-1948</h3>
+                    <div class="price"> <span>price : </span> Out-Of-Stock </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> 1948
+                        <span class="fas fa-circle"></span> Manual
+                        <span class="fas fa-circle"></span> diesel
+                        <span class="fas fa-circle"></span> ---mph
+                    </p>
+                    <!---<a href="#" class="btn">check out</a>--->
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image\mazda rx7.png" alt="">
+                <div class="content">
+                    <h3>Mazda RX7</h3>
+                    <div class="price"> <span>price : </span> Up-Coming</div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> ---
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> ---mph
+                    </p>
+                     <!---<a href="#" class="btn">check out</a>--->
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image\benz v.png" alt="">
+                <div class="content">
+                    <h3>Mercedes Benz V Class</h3>
+                    <div class="price"> <span>price : </span> TR-150000 </div>
+                    <p>
+                        new
+                        <span class="fas fa-circle"></span> ---
+                        <span class="fas fa-circle"></span> automatic
+                        <span class="fas fa-circle"></span> petrol
+                        <span class="fas fa-circle"></span> ---mph
+                    </p>
+                    <!---<a href="#" class="btn">check out</a>--->
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p>Contact through Discord<br>
+                Discord-KaymindYT#9390 - IC-Name- The Professor
+            </p>
+           
+        </div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Cars</span>-List </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image\packard1948.png" alt="">
+                <div class="content">
+                    <h3>Packard-1948</h3>
+                    <div class="price">Out-Of-Stock </div>
+                    <!--<a href="#" class="btn">check out</a>-->
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image\mazda rx7.png" alt="">
+                <div class="content">
+                    <h3>Mazda RX7</h3>
+                    <!--Use class=star to add star rate future-->
+                    <!--<div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>-->
+                    <div class="price">Up-Coming</div>
+                     <!--<a href="#" class="btn">check out</a>-->
+                    
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image\benz v.png" alt="">
+                <div class="content">
+                    <h3>Mercedes Benz V Class</h3>
+                    <div class="price">TR-150000</div>
+                     <!--<a href="#" class="btn">check out</a>-->
+                    
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    
+    
+</section>
+
+
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+        <div class="map">
+             <h1>Map PinCode - 8167</h1>
+             <h1>Adam's Apple Boulevard Road</h1>
+             <h1>Booking's in IC</h1>
+
+        </div>
+        
+
+        <form action="https://formspree.io/f/mlezkgdd" method="POST" >
+            <h3>get in touch</h3>
+            <input type="text" name="Name"placeholder="Full Name" required class="box">
+
+            <input type="text" name="Discord-ID"placeholder="Discord ID - Name#0007 " required class="box">
+
+            <input type="text" name="Discord-ID"placeholder="IC-Name " required class="box">
+
+            <textarea name="Message" placeholder="Send your here Message" required class="box"></textarea>
+            <div class="b1">
+
+            <button class="btn" type="submit" >Send</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--<section class="footer" id="footer">
+
+    <div class="credit"> created by Hemanath | all rights reserved </div>
+
+</section>-->
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
